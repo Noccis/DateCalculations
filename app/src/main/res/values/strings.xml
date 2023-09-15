@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Date Calculations</string>
+    <string name="open_date_picker_text">Choose Start Date</string>
+    <string name="set_date_text">Done</string>
 </resources>
