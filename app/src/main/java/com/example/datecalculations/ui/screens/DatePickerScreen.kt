@@ -1,4 +1,5 @@
 package com.example.datecalculations.ui.screens
+
 import androidx.compose.material3.DateRangePicker
 import androidx.compose.material3.DateRangePickerState
 import androidx.compose.material3.DisplayMode
@@ -22,7 +23,7 @@ fun DatePickerScreen() {
             yearRange = (2023..2024)
         )
     }
-    
+
     DateRangePicker(state = datePickerState)
 
 }
