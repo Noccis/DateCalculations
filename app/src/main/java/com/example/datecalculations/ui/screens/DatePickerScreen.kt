@@ -17,9 +17,9 @@ fun DatePickerScreen() {
     val datePickerState = remember {
         DateRangePickerState(
             initialSelectedEndDateMillis = null,
-            initialDisplayedMonthMillis = null,
             initialSelectedStartDateMillis = currentDateTime.toMillis(),
-            initialDisplayMode = DisplayMode.Picker,
+            initialDisplayedMonthMillis = null,
+            initialDisplayMode = DisplayMode.Input,
             yearRange = (2023..2024)
         )
     }
